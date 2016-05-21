@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   resources :posts
   resources :users
 
-  get 'signup' => 'users#new'
+  get 'sign_up' => 'users#new'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
